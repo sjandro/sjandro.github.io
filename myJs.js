@@ -1,4 +1,8 @@
-$("#test").click(function(event) {
-    $(selector).slideDown(speed,callback);
-    alert("Test");
+$(document).ready(function(){
+
+    $("#test").click(function(event) {
+        $("#test").slideDown();
+        alert("Test");
+    });
+
 });
