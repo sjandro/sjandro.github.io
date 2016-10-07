@@ -14,7 +14,8 @@ body {
 	overflow:scroll;*/
 }
 #paper_container{
-  max-width: 1400px;
+  /*max-width: 1400px;*/
+  max-width: 60%;
   width: calc(100% - 16px);
   margin: 0 auto;
   height: auto;
@@ -22,19 +23,26 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-color: white;
 }
+
+.contact_info_div{
+	width: 100%;
+}
 h1{
 	font-family: "Roboto","Helvetica","Arial",sans-serif;
-	font-size: 42px;
+	font-size: 23px;
 	font-weight: 300;
+	margin: 0 auto;
+	/*display: inline;*/
 	/*line-height: 1;*/
 	/*letter-spacing: -.04em;*/
 }
 
 h2{
 	font-family: "Roboto","Helvetica","Arial",sans-serif;
-	font-size: 32px;
+	font-size: 19px;
 	font-weight: 300;
-	margin-bottom: 15px;
+	margin: 0 auto;
+	/*display: inline;*/
 	/*line-height: 1;*/
 	/*letter-spacing: -.04em;*/
 }
