@@ -16,9 +16,9 @@ body {
 	margin-top: 10%;
 }
 
-#contact_left{}
+#contact_left{float: left;}
 
-#contact_right{}
+#contact_right{float: left;}
 
 .info{
 	font-size: 1vw;
