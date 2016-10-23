@@ -16,13 +16,17 @@ body {
 	margin-top: 10%;
 }
 
+#contact_left{}
+
+#contact_right{}
+
 .info{
 	font-size: 1vw;
 }
 
 .image-cropper {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     position: relative;
     overflow: hidden;
     border-radius: 50%;
@@ -38,7 +42,7 @@ img {
 .social_icon{
 	height: 40px;
 	width: 40px;
-	margin-right: 5px;
+	margin-right: 15px;
 }
 
 .center_div{
@@ -57,6 +61,13 @@ img {
 	font-size: 25px;
 	margin: 5px;
 }
+
+.material-icons.grey600.md-30{
+	color: #757575;
+	margin-right:10px;
+	font-size: 30px;
+}
+
 
 /*[class*="col-"] {
     float: left;
